@@ -3,74 +3,112 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Biodata</title>
+    <title>Biodata - Sthiti Prangya Nayak</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f0f8ff;
+            background: linear-gradient(to right, #e0f7fa, #ffffff);
             color: #333;
         }
+
         .container {
-            width: 80%;
-            margin: auto;
-            padding: 20px;
+            max-width: 800px;
+            background-color: #ffffff;
+            margin: 40px auto;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
         }
+
         h1 {
             text-align: center;
-            color: #4a90e2;
+            color: #0077b6;
+            margin-bottom: 30px;
+            font-size: 36px;
         }
+
         .section-title {
-            color: #333;
-            border-bottom: 2px solid #4a90e2;
-            padding-bottom: 5px;
-            margin-bottom: 15px;
-            font-size: 20px;
+            color: #023e8a;
+            border-left: 5px solid #0096c7;
+            padding-left: 10px;
+            margin-bottom: 10px;
+            font-size: 22px;
         }
+
         .info {
-            margin-bottom: 20px;
+            margin-bottom: 25px;
         }
+
         .info p {
+            margin: 6px 0;
             line-height: 1.6;
         }
-        .skills, .hobbies {
-            list-style-type: square;
-            margin: 0;
-            padding: 0;
+
+        .skills li,
+        .hobbies li {
+            margin: 8px 0;
+            transition: transform 0.2s;
+        }
+
+        .skills li:hover,
+        .hobbies li:hover {
+            transform: translateX(10px);
+            color: #0077b6;
+        }
+
+        ul {
+            list-style-type: '💠 ';
+            padding-left: 20px;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px;
+                margin: 20px;
+            }
+
+            h1 {
+                font-size: 28px;
+            }
+
+            .section-title {
+                font-size: 18px;
+            }
         }
     </style>
 </head>
 <body>
 
     <div class="container">
-        <h1>Biodata</h1>
+        <h1>🌸 Biodata</h1>
 
         <div class="info">
-            <h2 class="section-title">Personal Information</h2>
-            <p><strong>Name:</strong> STHITI PRANGYA NAYAK</p>
+            <h2 class="section-title">👩 Personal Information</h2>
+            <p><strong>Name:</strong> Sthiti Prangya Nayak</p>
             <p><strong>Date of Birth:</strong> 11/10/2005</p>
-            <p><strong>Gender:</strong> female</p>
-            <p><strong>Nationality:</strong> INDIAN</p>
+            <p><strong>Gender:</strong> Female</p>
+            <p><strong>Nationality:</strong> Indian</p>
             <p><strong>Marital Status:</strong> Single</p>
         </div>
 
         <div class="info">
-            <h2 class="section-title">Contact Information</h2>
-            <p><strong>Address:</strong>BBSR,751006</p>
+            <h2 class="section-title">📞 Contact Information</h2>
+            <p><strong>Address:</strong> BBSR, 751006</p>
             <p><strong>Email:</strong> sthitiprangyan686@gmail.com</p>
             <p><strong>Phone:</strong> 7682958992</p>
         </div>
 
         <div class="info">
-            <h2 class="section-title">Education</h2>
+            <h2 class="section-title">🎓 Education</h2>
             <p><strong>Bachelor of Science in Computer Science</strong></p>
-            <p>REC</p>
+            <p>Raajdhani Engineering College (REC)</p>
             <p><em>Graduated: 2024</em></p>
         </div>
 
         <div class="info">
-            <h2 class="section-title">Skills</h2>
+            <h2 class="section-title">🛠️ Skills</h2>
             <ul class="skills">
                 <li>Web Development (HTML, CSS, JavaScript)</li>
                 <li>Programming Languages (Python, Java, C++)</li>
@@ -80,7 +118,7 @@
         </div>
 
         <div class="info">
-            <h2 class="section-title">Hobbies</h2>
+            <h2 class="section-title">🎨 Hobbies</h2>
             <ul class="hobbies">
                 <li>Dancing</li>
                 <li>Traveling</li>
